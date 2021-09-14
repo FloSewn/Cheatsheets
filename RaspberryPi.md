@@ -28,6 +28,6 @@ Both the display and the audio from the soundcard should work now.
 
 
 # Sources: 
-[1]: https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
-[2]: https://raspberrypi.stackexchange.com/questions/44/why-is-my-audio-sound-output-not-working
-[3]: https://datasheets.raspberrypi.org/iqaudio/iqaudio-product-brief.pdf
+* https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
+* https://raspberrypi.stackexchange.com/questions/44/why-is-my-audio-sound-output-not-working
+* https://datasheets.raspberrypi.org/iqaudio/iqaudio-product-brief.pdf

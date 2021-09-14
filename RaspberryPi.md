@@ -2,7 +2,7 @@
 Tested with Raspberry Pi 3 Model B Plus Rev 1.3, IQaudIO Pi-DAC+ Soundcard and 7" touchscreen display:
 
 1) Burn Raspian image to SD card
-2) Enable ssh by creating an empty file on the SD card via: `touch /boot/ssh`
+2) Enable ssh by creating an empty file on the SD card via: `touch /boot/ssh` 
 3) Add network info by creating a new file `wpa_supplicant.conf` and insert the following lines:
 
 ```
@@ -27,7 +27,7 @@ Both the display and the audio from the soundcard should work now.
 
 
 
-Sources: 
-[1]: https://raspberrypi.stackexchange.com/questions/44/why-is-my-audio-sound-output-not-working
-[2]: https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
+# Sources: 
+[1]: https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
+[2]: https://raspberrypi.stackexchange.com/questions/44/why-is-my-audio-sound-output-not-working
 [3]: https://datasheets.raspberrypi.org/iqaudio/iqaudio-product-brief.pdf

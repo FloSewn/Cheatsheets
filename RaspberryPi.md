@@ -17,10 +17,17 @@ network={
 ```
 
 5) Adjust the following file: `/boot/config.txt`
-5.1) Comment this line out: `#dtparam=audio=on`
-5.2) Add this line to the end of the file: `dtoverlay=iqaudio-dacplus`
-5.3) Uncomment this line: `hdmi_drive=2`
+    1) Comment this line out: `#dtparam=audio=on`
+    2) Add this line to the end of the file: `dtoverlay=iqaudio-dacplus`
+    3) Uncomment this line: `hdmi_drive=2`
 
 4) Insert SD card into Raspberry Pi and boot -> Wait until installation has finished
 
 Both the display and the audio from the soundcard should work now.
+
+
+
+Sources: 
+[1]: https://raspberrypi.stackexchange.com/questions/44/why-is-my-audio-sound-output-not-working
+[2]: https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
+[3]: https://datasheets.raspberrypi.org/iqaudio/iqaudio-product-brief.pdf

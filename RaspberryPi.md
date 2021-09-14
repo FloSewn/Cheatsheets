@@ -26,8 +26,16 @@ network={
 Both the display and the audio from the soundcard should work now.
 
 
-
-# Sources: 
+## Sources: 
 * https://desertbot.io/blog/headless-raspberry-pi-3-bplus-ssh-wifi-setup
 * https://raspberrypi.stackexchange.com/questions/44/why-is-my-audio-sound-output-not-working
 * https://datasheets.raspberrypi.org/iqaudio/iqaudio-product-brief.pdf
+
+
+# Install Kivy on the Raspberry Pi
+1) Install virtualenvwrapper: https://ronm333.medium.com/virtual-environments-on-the-raspberry-pi-ead158a72cd5
+
+2) Install kivy: https://kivy.org/doc/stable/installation/installation-rpi.html
+
+
+
